@@ -1,0 +1,88 @@
+/* --------- Fonts --------- */
+
+@import "fonts";
+
+/* --------- Mixins --------- */
+
+@import "mixins";
+
+/* --------- Base --------- */
+
+@import "adjustment";
+
+.intro {
+    position: relative;
+}
+
+.intro__text {
+    width: 370px;
+    margin-left: 210px;
+    padding-top: 80px;
+
+    h2 {
+        .ptsans-b;
+        font-size: 36px;
+        color: #333;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    p {
+        .ptsans-r;
+        font-size: 16px;
+        color: #272727;
+        text-align: left;
+        line-height: 1.5;
+    }
+}
+
+.intro__right-pic {
+    position: absolute;
+    top: -110px;
+    right: 0;
+    z-index: -1;
+}
+
+.intro__form {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    position: absolute;
+    right: 243px;
+    bottom: 0;
+    width: 445px;
+    min-height: 238px;
+    background: url('../img/form-bg.png') no-repeat 0 0;
+}
+
+.intro__form-input {
+    width: 270px;
+    height: 48px;
+    .border-radius(3px);
+    border: 0;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 45px;
+    padding-right: 15px;
+    .roboto-l;
+    font-size: 16px;
+    color: #ababab;
+    .placecolor(#ababab);
+
+    &-square {
+        margin-left: 100px;
+    }
+
+    &-district {
+        margin-left: 62px;
+    }
+
+    &-contacts {
+        margin-left: 20px;
+    }
+}
+
+.intro__form-submit {
+    .button-purple(190px,40px);
+    margin-left: 465px;
+}

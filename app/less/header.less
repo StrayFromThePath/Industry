@@ -1,0 +1,89 @@
+/* --------- Fonts --------- */
+
+@import "fonts";
+
+/* --------- Mixins --------- */
+
+@import "mixins";
+
+/* --------- Base --------- */
+
+@import "adjustment";
+
+.header {
+    background-color: #fff;
+    .opacity(.8);
+    min-height: 110px;
+}
+
+.header__logo {
+    .inlineblock;
+    padding-left: 105px;
+    padding-top: 15px;
+}
+
+.header__logo-pic {
+    max-width: 101px;
+    max-height: 69px;
+}
+
+.nav {
+    .inlineblock;
+    margin-left: 55px;
+    padding-top: 45px;
+}
+
+.nav__item {
+    .inlineblock;
+    margin-left: 25px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.nav__link {
+    display: block;
+    .roboto-r;
+    font-size: 14px;
+    color: #231f20;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #7a7a7a;
+    }
+
+    &.active {
+        color: #4e9c49;
+    }
+}
+
+.header__contacts {
+    .inlineblock;
+    padding-top: 30px;
+    margin-left: 200px;
+}
+
+.header__contacts-tel {
+    display: block;
+    .roboto-m;
+    font-size: 30px;
+    color: #333;
+
+    span {
+        margin-right: 10px;
+    }
+}
+
+.header__contacts-btn {
+    display: block;
+    .roboto-l;
+    font-size: 16px;
+    color: #4e9c49;
+    text-align: center;
+    text-decoration: underline;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}

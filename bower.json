@@ -1,0 +1,25 @@
+{
+    "name": "_template",
+    "version": "0.1.0",
+    "authors": [
+        "Alex Tolkunov <naysayer94@gmail.com>"
+    ],
+    "main": "index.js",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "app/bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "normalize.css": "~3.0.2",
+        "jquery": "1.11.1"
+    },
+    "devDependencies": {
+        "modernizer": "~2.8.2"
+    }
+}
+

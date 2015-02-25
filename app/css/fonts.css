@@ -1,0 +1,34 @@
+.roboto-r {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.roboto-m {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.roboto-l {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.roboto-b {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.ptsans-r {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+.ptsans-ri {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.ptsans-b {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+.ptsans-bi {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
